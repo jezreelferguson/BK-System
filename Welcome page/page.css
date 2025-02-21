@@ -1,0 +1,50 @@
+body {
+    background-image: url('Diagrama de gráfico de finanças do gráfico de negócios de dinheiro azul no fundo da moeda 3d da economia com conceito de dados financeiros de crescimento ou barra de lucro do mercado de investimento e relatório de m.jfif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    background-color: beige;
+    color: black;
+    border: none;
+    border-radius: 23px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #f5deb3;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.popup button {
+    display: block;
+    margin: 10px auto;
+}

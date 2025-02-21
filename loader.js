@@ -1,3 +1,3 @@
 setTimeout(() => {
-    window.location.href = "page.html";
+    window.location.href = "BankSystem/index.php";
 }, 2000);
